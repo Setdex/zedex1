@@ -1,0 +1,16 @@
+Update V0.5
+
+Fixes/add
+
+- Fixed some issus with Login form
+- Zedex is now shown as Jumbotron
+- Code is formatted but not less 
+- Added some comments to make it easyier to find something
+- Added an regestration button  with Email, and password
+
+What comes next?
+
+- Mysql connection scripts from Fabio
+- New site "More" (Mybe dropdown)
+- new site "Members" (Table?  we will see)
+- new site "Sign in for Dungeon" (Mybe a shorter name yoo)
