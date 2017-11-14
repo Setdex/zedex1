@@ -1,40 +1,34 @@
- /* Add a black background color to the top navigation */
+body {margin:0;}
+
 .topnav {
-    background-color: #333;
-    overflow: hidden;
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
-/* Add an active class to highlight the current page */
 .active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-    display: none;
-} 
+  display: none;
+}
 
-/*Media*/
-
- /*Less then 600px*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -43,10 +37,9 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -56,4 +49,70 @@
     display: block;
     text-align: left;
   }
-} 
+
+}
+
+
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 30px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    
+}
+.form-horizontal {
+	background: #ddd;
+	color: black;
+}
+
+.btn-default{
+	background: #333;
+	border: 0px solid #333;
+	padding: 14px 16px;
+	color: #ffffff; 
+	background-color: #333; 
+	border-color: #494F57;
+	font-size: 17px;
+	
+}
+
+.btn-default:hover {
+	background-color: #ddd;
+	color: black;
+	
+}
+
+.nav-tabs > li > a{
+	background-color: #ddd !important;
+	color: black;
+	border: ;
+}
+
+.nav-tabs:hover {
+	background-color: #ddd !important;
+	color: black;
+}
+
+.modal-body {
+	background-color: #ddd;
+	color: black;
+
+
+}

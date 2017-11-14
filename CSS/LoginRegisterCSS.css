@@ -1,0 +1,47 @@
+body {margin:0;}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 30px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    
+}
+.form-horizontal {
+	background: #333;
+}
+
+.btn-default{
+	background: #333;
+	border: 0px solid #333;
+	padding: 14px 16px;
+	color: #ffffff; 
+	background-color: #333; 
+	border-color: #494F57;
+}
+
+.btn-primary:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.active {
+	background-color: #ddd;
+
+}
