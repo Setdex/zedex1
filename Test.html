@@ -35,53 +35,21 @@
     </div>
 </div>
 
-<!--Jumbotron!!--------------------------------------------------------------------------------------------  -->
-
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
-<div class="container">
-  <!-- <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>-->
-</div>
-
-
 <!-- Navbar!!!----------------------------------------------------------------------------------------------- -->
+
+
+<nav class="navbar navbar-static-top" data-spy="affix" data-offset-top="150">
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
 	<li>
 
 <!-- Login/Register Modal!!!------------------------------------------------------------------------------------------- -->
 
-
-
-
-
-
-
-<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Login</button>
+<button type="button" class="button" data-toggle="modal" data-target="#myModal">Login</button>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -97,8 +65,8 @@
                     <div class="col-md-8" style="border-right: 1px dotted #333;padding-right: 30px;">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
-                            <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                            <li class="loginbutton"><a href="#Login" data-toggle="tab">Login</a></li>
+                            <li class="registerbutton"><a href="#Registration" data-toggle="tab">Registration</a></li>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
@@ -124,7 +92,7 @@
                                     <div class="col-sm-10">
                                         <button type="submit" class="btn btn-primary btn-sm">
                                             Submit</button>
-                                        <a href="javascript:;">Forgot your password?</a>
+                                        <a href="javascript:;" style="color: #000000">Forgot your password?</a>
                                     </div>
                                 </div>
                                 </form>
@@ -205,8 +173,8 @@
         </div>
     </div>
 </div>
-
 </div>
+</nav>
 <!--NUR ZUM TEST!!-----------------------------------------------------------------------------------------  -->
 <div class="container-fluid" style="height:1000px">
 
