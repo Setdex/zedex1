@@ -13,9 +13,10 @@
 
 
 
-<!-- Extern scripts saved in the root folder -->
-<script src="Javascript/Newsticker.js"></script>	
-<script src="Javascript/JSNavbar.js"></script>	
+<!-- Extern scripts saved in the root folder -->	
+<script src="Javascript/JSNavbar.js"></script>
+<script src="Javascript/JSLoginRegisterModal.js"></script>
+<script src="Javascript/Loginmodal.js"></script>
 <link rel="stylesheet" href="CSS/stylesheetNT.css">
 <link rel="stylesheet" href="CSS/footerCSS.css">
 <link rel="stylesheet" href="CSS/ContentCSS.css">
@@ -26,32 +27,59 @@
 <div id="bg">
   <img src="Bilder/Destiny.jpg" alt="">
 </div>
-<!--Newsticker!!------------------------------------------------------------------------------------------  -->
-<div id="iFeatures" >
-    <div class="ticker">
-      <li><p><a href="##">This is a test ticker 1.</a></p></li>
-      <li><p><a href="##">This is a test ticker 2.</a></p></li>
-      <li><p><a href="##">This is a test ticker 3.</a></p></li>
-    </div>
-</div>
 
 <!-- Navbar!!!----------------------------------------------------------------------------------------------- -->
+<!--navbar menu-->
+<section class="navbar-info">
 
-
-<nav class="navbar navbar-static-top" data-spy="affix" data-offset-top="150">
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-
-	<li>
+<nav class="navbar navbar-default navbar-me">
+  <div class="container-fluid ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed menu-collapsed-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand site-logo" href="#">Zedex</a>
+    </div>
+      
+      <div class="collapse navbar-collapse navbar-right  header-right-menu" id="navbar-primary-collapse">
+            <ul class="nav navbar-nav ">
+            <li class="page-scroll">
+                        <a class="header" href="javascript:" id="about-menu">About</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="services-menu">Services</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="Clients-menu">Clients</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="contact-menu">Contact</a>
+                    </li>
+                    <li>
+                        <a class="" href="javascript:" id="project-menu">Projects</a>
+                    </li>
+					 <li>
+                        <a data-target="#myModal" data-toggle="modal" class="button" id="button" href="#myModal" >Login</a>
+						
+                    </li>
+                </ul>
+         
+ 
 
 <!-- Login/Register Modal!!!------------------------------------------------------------------------------------------- -->
 
-<button type="button" class="button" data-toggle="modal" data-target="#myModal">Login</button>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
+
+
+
+
+
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -65,8 +93,8 @@
                     <div class="col-md-8" style="border-right: 1px dotted #333;padding-right: 30px;">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs">
-                            <li class="loginbutton"><a href="#Login" data-toggle="tab">Login</a></li>
-                            <li class="registerbutton"><a href="#Registration" data-toggle="tab">Registration</a></li>
+                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                            <li><a href="#Registration" data-toggle="tab">Registration</a></li>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
@@ -92,7 +120,7 @@
                                     <div class="col-sm-10">
                                         <button type="submit" class="btn btn-primary btn-sm">
                                             Submit</button>
-                                        <a href="javascript:;" style="color: #000000">Forgot your password?</a>
+                                        <a href="javascript:;">Forgot your password?</a>
                                     </div>
                                 </div>
                                 </form>
@@ -174,7 +202,11 @@
     </div>
 </div>
 </div>
-</nav>
+
+</div>
+</div><!-- /.navbar-collapse -->
+ </nav>
+</section>
 <!--NUR ZUM TEST!!-----------------------------------------------------------------------------------------  -->
 <div class="container-fluid" style="height:1000px">
 
